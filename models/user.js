@@ -1,7 +1,6 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
 
-
 var userSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -19,7 +18,7 @@ var userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-    minlength: 8,
+    minlength: 6,
     maxlength: 99
   }
 });
