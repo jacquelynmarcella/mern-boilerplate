@@ -1,9 +1,9 @@
 # Summary
- A full-stack MERN image editing app, shamelessly ripped from [Jenna Badanowski](https://github.com/jbadan/meanImageEditor)!
+ A full-stack MERN app, originally adapted from [Jenna Badanowski](https://github.com/jbadan/meanImageEditor)!
 
 # Demo
 
-TBD
+[Demo deployed on Heroku](https://mern-thingy.herokuapp.com/)
 
 # Technologies Used
 * Mongodb
@@ -26,12 +26,4 @@ METHOD | URL | Purpose
 POST | /auth/signup | Adds new user to user database
 POST | /auth/login | Authenticates login details
 POST | /auth/me/from/token | Checks if token is present on browser refresh
-POST | /image/new | Adds new uploaded image to logged in user's database
-POST | /image/grid | Retrieves all images for logged in user from database
-POST | /image/unsplash | Searches Unsplash API for query entered in text field, returns 10 photos
-POST | /image/save | Saves edited image to logged in user's database
-POST | /image/delete | Deletes selected image from logged in user's database
 
-
-# Next Steps
-* TBD
