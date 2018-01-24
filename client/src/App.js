@@ -18,12 +18,12 @@ class App extends Component {
     }
   }
   componentDidMount = () => {
-    this. ();
+    this.getUser();
   }
 
   getUser = () => {
-        // If there is a token in localStorage
-    var token = localStorage.getItem('mernToken');
+    // If there is a token in localStorage
+    let token = localStorage.getItem('mernToken');
     if (token === 'undefined' || token === null || token === '' || token === undefined) {
       localStorage.removeItem('mernToken');
       this.setState({
