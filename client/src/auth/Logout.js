@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 class Logout extends Component {
   handleLogout = (e) => {
     e.preventDefault();
+    //Delete token from local storage
     localStorage.removeItem('mernToken');
-    window.location.href = '/';
+    //Go back to home page
+    this.props.updateUser();
   }
 
   render() {
