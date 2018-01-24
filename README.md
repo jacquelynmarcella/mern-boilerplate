@@ -10,11 +10,6 @@
 * Express
 * React
 * Node.js
-* [React Flexbox Grid](https://roylee0704.github.io/react-flexbox-grid/)
-* [Cloudinary](https://cloudinary.com/)
-* [Material UI](http://www.material-ui.com/#/)
-* [Unsplash](https://unsplash.com/)
-* [FontAwesome](http://fontawesome.io/)
 
 # Backend Routes
 METHOD | URL | Purpose
